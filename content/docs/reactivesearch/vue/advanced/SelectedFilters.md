@@ -24,7 +24,7 @@ Example uses:
 
 ### Basic Usage
 
-```js
+```html
 <template>
 	<selected-filters />
 </template>
@@ -32,10 +32,10 @@ Example uses:
 
 ### Usage with All Props
 
-```js
-<selected-filters
-    clearAllLabel="Clear filters"
-    :showClearAll="true"
+```html
+<selected-filters 
+    clearAllLabel="Clear filters" 
+    :showClearAll="true" 
 />
 ```
 
@@ -75,7 +75,7 @@ Read more about it [here](/docs/reactivesearch/vue/theming/ClassnameInjection/).
 
 `SelectedFilters` component can be extended to customize the look and feel with `className`.
 
-```js
+```html
 <selected-filters className="custom-class" />
 ```
 
